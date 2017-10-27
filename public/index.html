@@ -1,9 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Responsive Personal Portfolio vCard Template">
 	<meta name="author" content="Ahmed Faruk">
@@ -11,7 +10,7 @@
 	<title>Jingye's Website</title>
 
   <!-- Web Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
@@ -150,8 +149,8 @@
             </div>
 
             <div class="download-button">
-              <!--- <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a> -->
-              <a class="btn btn-primary btn-lg" href="assets/cv/jingye.pdf" download="Jingye's Curriculum Vitae"><i class="fa fa-download"></i>download my cv</a>
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="cv/jingye.pdf" target="_blank" download="Jingye's Curriculum Vitae"><i class="fa fa-download"></i>download my cv</a>
             </div>
           </div>
 
@@ -200,7 +199,7 @@
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>MS in Ophthalmology</h3>
-                                            <span>Shanghai Jiao Tong University, Shanghai, China</span>
+                                            <span>hanghai Jiao Tong University, Shanghai, China</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
@@ -363,7 +362,7 @@
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Clinical Rotating Internship</h3>
-                                            <span>Shanghai Fifth People’s Hospital, Fudan University, Shanghai, China</span>
+                                            <span>hanghai Fifth People’s Hospital, Fudan University, Shanghai, China</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
@@ -381,7 +380,7 @@
     </section><!-- End Resume Section --> 
 
 
-    <!-- Skills Section -->
+        <!-- Skills Section -->
     <section id="skills" class="skills-section section-padding">
       <div class="container">
         <h2 class="section-title wow fadeInUp">Skills</h2>
@@ -417,14 +416,14 @@
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
-	    <div class="skill-progress">
+            <div class="skill-progress">
               <div class="skill-title"><h3>HTML</h3></div>  
               <div class="progress">
                 <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
-	    <div class="skill-progress">
+            <div class="skill-progress">
               <div class="skill-title"><h3>JavaScript</h3></div>  
               <div class="progress">
                 <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span>60%</span>
@@ -462,7 +461,7 @@
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
-	    <div class="skill-progress">
+            <div class="skill-progress">
               <div class="skill-title"><h3>CSS</h3></div>  
               <div class="progress">
                 <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" ><span>50%</span>
@@ -701,6 +700,15 @@
                 </div>
               </div>
             </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="location-map">
+                <div id="mapCanvas" class="map-canvas"></div>
+              </div>
+            </div>
+          </div>
+
           </div>
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -738,8 +746,9 @@
   <script src="assets/js/jquery.easypiechart.js"></script>
   <script src="assets/js/jquery.shuffle.min.js"></script>
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="https://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="assets/js/scripts.js"></script>
 </body>
 </html>
